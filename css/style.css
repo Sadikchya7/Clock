@@ -1,0 +1,37 @@
+.clockBox {
+  background-color: palevioletred;
+  height: 120px;
+  width: 400px;
+  font-size: 100px;
+  color: white;
+  padding: 0 50px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 20px;
+}
+.stopwatch {
+  /* display: flex; */
+  background-color: #d87093;
+  height: 120px;
+  width: 400px;
+  padding: 0 50px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 20px;
+  .timer {
+    font-size: 65px;
+    color: white;
+  }
+}
+.buttonHolder {
+  display: flex;
+  justify-content: space-between;
+  button {
+    opacity: 50%;
+    width: 100px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border-color: #d87093;
+  }
+}
